@@ -102,8 +102,9 @@ You might think 'So y use Spark for 16G small dataset, This benchmark is not val
 Spark on local mode is a well known processing method. People move to clusters when limits are breached without no code changes.
 Dataset may be small on disk i.e. compressed parquet. Uncompressed it would be 32GB,
 You might think 'Still small! Not a case for Spark?'.
-Either way, you are edging out Spark on Iceberg on this 1 Billion row dataset :)
-Perhaps polars, a better competitor to duckDB for this benchmark ? 
+Either way(whether we go for cluster or its a small dataset), you are edging out Spark on Iceberg on this 1 Billion row dataset :)
+Perhaps polars, is a better competitor to duckDB for this benchmark ? 
+Ps: With Spark local mode, Shuffling gets eliminated.
 
 ![memProfileQuery16](query_16_mem_profile.png)
 
