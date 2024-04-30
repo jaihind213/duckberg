@@ -99,7 +99,7 @@ The longest running query was query16.
 The peak memory usage for spark was about ~8.5GB, so it well within limits (I could have made Xmx=10g for safety).
 When it can complete on 1 node, why run on cluster ?
 You might think 'So y use Spark for 16G small dataset, This benchmark is not valid?'.
-Spark on local mode is a well mode processing method. People move to clusters when limits are breached without no code changes.
+Spark on local mode is a well known processing method. People move to clusters when limits are breached without no code changes.
 Dataset may be small on disk i.e. compressed parquet. Uncompressed it would be 32GB,
 You might think 'Still small! Not a case for Spark?'.
 Either way, you are edging out Spark on Iceberg on this 1 Billion row dataset :)
@@ -119,3 +119,5 @@ or [Twitter](https://twitter.com/bytespireio)
 or [Twitter](https://twitter.com/sweetweet213)
 
 Ps: i am the Chief Inspiration officer at [Bytespire.io](https://bytespire.io)
+
+[Buy me a coffee?](https://buymeacoffee.com/techteachr)
