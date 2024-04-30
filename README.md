@@ -114,7 +114,7 @@ Cost is the hidden/overlooked dimension to data engineering. Cost based engineer
 ## Like me ? Need a Consultation
 
 Happy to help you with your data engineering needs. 
-Reach out to me at [LinkedIn](http://linkedin.com/213vishnu) 
+Reach out to me at [LinkedIn](https://www.linkedin.com/in/213vishnu/) 
 or [Twitter](https://twitter.com/bytespireio)
 or [Twitter](https://twitter.com/sweetweet213)
 
