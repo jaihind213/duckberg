@@ -6,7 +6,7 @@ duckDB vs Spark SQL on Apache Iceberg for 1 Billion rows - Nyc yellow taxi datas
 This project aims to compare the performance of duckDB and Spark SQL on Apache Iceberg for the Nyc yellow taxi dataset. 
 The dataset is available on the [NYC Taxi & Limousine Commission website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page). 
 The dataset contains information about taxi trips in New York City, including pick-up and drop-off times, locations, trip distances, and fares. 
-The dataset is available in CSV format and can be downloaded from the website.
+The dataset is available in parquet format and can be downloaded from the website.
 
 ## Dataset
 
