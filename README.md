@@ -53,6 +53,13 @@ I Used the following setup for the benchmark:
 - 9G of memory was allocated to both duckDB & Spark.
 - All cores were used for both duckDB & Spark.
 
+### build Jar
+
+```bash
+#need java 17
+mvn clean package
+```
+
 ## Benchmark Queries
 
 There were a total of 16 queries.
@@ -79,6 +86,14 @@ The % difference/change from duckDb to Spark SQL on Iceberg was:
 - at a Maximum was 5000x
 
 ![%Difference](percent_compare.png)
+
+### Including duckDb on iceberg (duckberg) in the comparison
+
+I also ran the same queries on duckDB with iceberg. Query 15 was ommitted as the query used while running on duckDB with 
+iceberg was rewritten to avoid duckdb-iceberg [bug](https://github.com/duckdb/duckdb_iceberg/issues/44) 
+(The rewritten query was not performant, hence omitted).
+
+![duckberg](with_duckberg.jpeg)
 
 ## Thoughts for Technical Debate
 
